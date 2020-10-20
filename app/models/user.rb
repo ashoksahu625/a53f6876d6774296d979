@@ -15,7 +15,7 @@ class User
 
   def find_data(params)
     data = []
-  	data = User.where(firstName: params[:firstName]).or(User.where(lastName: params[:lastName]))
+  	data = User.find_by(firstName: params[:input]) || User.find_by(lastName: params[:input]) || User.find_by(email: params[:input])
   end
 
 end
