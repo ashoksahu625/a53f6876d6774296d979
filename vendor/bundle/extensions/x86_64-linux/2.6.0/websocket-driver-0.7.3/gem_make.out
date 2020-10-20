@@ -1,0 +1,15 @@
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/websocket-driver-0.7.3/ext/websocket-driver
+/home/react/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/react/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201018-30778-1yldrqc.rb extconf.rb
+creating Makefile
+
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/websocket-driver-0.7.3/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20201018-30778-15ludo0

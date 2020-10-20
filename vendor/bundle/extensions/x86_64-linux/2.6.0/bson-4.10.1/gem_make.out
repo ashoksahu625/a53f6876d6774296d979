@@ -1,0 +1,21 @@
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/bson-4.10.1/ext/bson
+/home/react/.rvm/rubies/ruby-2.6.5/bin/ruby -I /home/react/.rvm/rubies/ruby-2.6.5/lib/ruby/site_ruby/2.6.0 -r ./siteconf20201018-11391-2o3zp7.rb extconf.rb
+creating Makefile
+
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/bson-4.10.1/ext/bson
+make "DESTDIR=" clean
+
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/bson-4.10.1/ext/bson
+make "DESTDIR="
+compiling bytebuf.c
+compiling endian.c
+compiling init.c
+compiling libbson-utf8.c
+compiling read.c
+compiling util.c
+compiling write.c
+linking shared-object bson_native.so
+
+current directory: /home/react/workspace/demo_app/vendor/bundle/gems/bson-4.10.1/ext/bson
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bson_native.so ./.gem.20201018-11391-3uqrqv
